@@ -34,7 +34,7 @@ First, clone the repository and install the required dependencies:
 
 ```bash
 # Clone this repository
-git clone https://github.com/YourUsername/JustABot-WhatsappSticker.git
+git clone https://github.com/JustAWeeab00/JustABot-WhatsappSticker
 
 # Navigate to the project directory
 cd JustABot-WhatsappSticker
