@@ -176,7 +176,7 @@ client.on('message', async msg => {
             default:
                 try {
                     const { data } = await axios.get('https://ipapi.co/json/');
-                    const statusMessage = `Status: Online\nLocation: ${data.city}, ${data.region}, ${data.country_name}\nIP: ${data.ip}\nTime: ${new Date().toLocaleString()}`;
+                    const statusMessage = `Status: Online Oji-san\nLocation: ${data.city}, ${data.region}, ${data.country_name}\nIP: ${data.ip}\nTime: ${new Date().toLocaleString()}`;
                     await client.sendMessage(msg.from, statusMessage);
                 } catch (error) {
                     console.error('Error fetching IP location or time:', error);
